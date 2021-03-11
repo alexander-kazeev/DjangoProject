@@ -1,6 +1,8 @@
 {% extends 'flatpages/default.html' %}
 
-{% block title %} MyStaticPage1 {% endblock title %}
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
 
 {% block content %}
 <h1>StaticPage1</h1>
